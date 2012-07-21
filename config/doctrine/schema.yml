@@ -1,0 +1,10 @@
+tFeedback:
+  actAs:
+    Timestampable: ~
+  columns:
+    name:
+      type: string(255)
+    email:
+      type: string(255)
+    message:
+      type: longtext

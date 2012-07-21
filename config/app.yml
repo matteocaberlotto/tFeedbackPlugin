@@ -1,0 +1,8 @@
+all:
+  tFeedbackPlugin:
+    form_class: WidgetFeedbackForm
+    disable_csrf: false
+    form_fields: [name, email, message] # if you use WidgetFeedbackForm class.
+    form_field_container_tag: span
+    form_field_container_class: feedback_form_field
+    required_form_fields: [name, email, message]
